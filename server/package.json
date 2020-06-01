@@ -1,0 +1,18 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "Wellington Reis",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.3"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.6"
+	},
+	"scripts": {
+		"dev": "ts-node-dev src/server.ts"
+	}
+}
